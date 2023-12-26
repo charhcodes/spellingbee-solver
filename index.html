@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script></script>
+    <title>Spelling Bee Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="title">
+        <h1>Spelling Bee Solver</h1>
+        <h3>A simple solver for the New York Times Spelling Bee game</h3>
+    </div>
+    <div class="outer-boxes">
+        <form action="/submit" method="post">
+            <label for="first">Enter 6 outer letters:</label>
+            <input type="text" id="first" name="first" class="letter-input" maxlength="1">
+            <input type="text" id="second" name="second" class="letter-input" maxlength="1">
+            <input type="text" id="third" name="third" class="letter-input" maxlength="1">
+            <input type="text" id="fourth" name="fourth" class="letter-input" maxlength="1">
+            <input type="text" id="fifth" name="fifth" class="letter-input" maxlength="1">
+            <input type="text" id="sixth" name="sixth" class="letter-input" maxlength="1">
+
+            <label for="center">Enter center letter:</label>
+            <input type="text" id="center" name="center" class="letter-input" maxlength="1">
+            <span class="error-message"></span>
+            <input type="submit" value="Submit">
+        </form> 
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

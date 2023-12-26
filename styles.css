@@ -1,0 +1,15 @@
+.letter-input {
+    text-transform: uppercase; 
+    width: 2em; 
+}
+
+.error-message {
+    position: absolute;
+    background-color: #ffdddd;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+}
